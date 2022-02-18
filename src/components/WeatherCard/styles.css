@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+div.widget {
+  position: relative;
+  width: 220px;
+  height: 145px;
+  margin: 50px auto;
+  background-color: #d7dddd;
+  border-radius: 9px;
+  padding: 25px;
+  padding-right: 30px;
+  box-shadow: 0px 31px 35px -26px #080c21;
+  gap: 20px;
+}
+
+div.container {
+  display: flex;
+  margin-left: 25px;
+  width: fit-content;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+div.city {
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+div.temp {
+  position: absolute;
+  font-size: 90px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 100;
+  text-align: right;
+}
+
+div.panel {
+  display: inline-block;
+}
+
+div.right-panel {
+  position: relative;
+  float: right;
+  top: 0;
+  margin-top: 35px;
+  padding-left: 10px;
+}
+
+div.delete {
+  margin-left: 225px;
+  color: rgb(168, 165, 161);
+  cursor: pointer;
+}

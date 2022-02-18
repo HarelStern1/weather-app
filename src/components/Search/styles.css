@@ -1,0 +1,16 @@
+.search {
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 30px;
+  width: 250px;
+  background-color: white;
+  border-radius: 6px;
+}
+.button {
+  margin-left: 20px;
+  height: 32px;
+  width: 90px;
+  background-color: rgb(51, 50, 53);
+  border-radius: 6px;
+  cursor: pointer;
+}

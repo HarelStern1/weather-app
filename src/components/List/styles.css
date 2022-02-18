@@ -1,0 +1,8 @@
+h1 {
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+}
